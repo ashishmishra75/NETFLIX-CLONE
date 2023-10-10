@@ -1,0 +1,101 @@
+@font-face {
+  font-family: netflix-sans-regular;
+  src: url("../Fonts/NetflixSansRegular.ttf");
+}
+body {
+  padding: 0px;
+  margin: 0px;
+  overflow-y: hidden;
+}
+.root {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url("../Images/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.navbar {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2%;
+  padding-left: 8vh;
+  padding-right: 10vh;
+}
+
+.img-logo {
+  width: 15%;
+  color: #e50914;
+  padding-left: 20px;
+}
+.btn-sign-in {
+  background-color: #e50914;
+  font-family: netflix-sans-regular;
+  font: size 2px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  width: fit-content;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 18px;
+  padding-right: 18px;
+}
+.main-container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title-container {
+  width: 50%;
+  text-align: center;
+  color: white;
+}
+.main-title {
+  font-size: 3.2em;
+  margin-bottom: 14px;
+  font-family: netflix-sans-regular;
+  line-height: 1.1;
+}
+.main-subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5em;
+  margin-bottom: 30px;
+}
+.main-call-to-action {
+  font-family: Arial, Helvetica, sans-serif;
+  font: size 1.2em;
+}
+.main-email-container {
+  width: 48%;
+  height: fit-content;
+  padding-left: 5px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-email-container-input {
+  outline: none;
+  border: none;
+  padding: 18px 9px;
+
+  font-size: 1.2em;
+}
+.btn-get-started {
+  cursor: pointer;
+  padding: 16px 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  height: fit-content;
+  background-color: #e50914;
+  color: white;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
+}
